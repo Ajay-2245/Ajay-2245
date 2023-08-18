@@ -1,0 +1,247 @@
+/* navbar css start */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+nav {
+  width: 100vw;
+  display: flex;
+  /* border: 2px solid black; */
+}
+.navbar-1 {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.navbar-2 {
+  display: flex;
+  column-gap: 20px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.selling_btn {
+  background-color: #ffcd00;
+  width: 10vw;
+  height: 5vh;
+  text-align: center;
+}
+.box-2 {
+  height: 7vh;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* navbar css end */
+
+/* sellonline css start */
+.sell_online {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 80vw;
+  height: 30vh;
+  /* background-image: url(images/Seller_images/sell_online.png); */
+  /* border: 2px solid red; */
+}
+
+.sell_online p {
+  font-weight: bolder;
+  color: #333333;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+.sell_online a {
+}
+.sell_online img {
+  float: right;
+}
+.sell_online a {
+  margin-right: 10px;
+}
+
+/* seller css end */
+
+/* bookmark css start */
+.bookmark {
+  margin-top: 100px;
+  /* float: left; */
+  position: sticky;
+  top: 20px;
+  margin-left: 200px;
+}
+
+/* .stick {
+  position: relative;
+} */
+
+.bookmark a:hover {
+  background-color: #0984e3;
+  border-radius: 4px;
+  color: white;
+}
+
+.bookmark ul li {
+  margin-bottom: 20px;
+}
+/* create account box css start */
+.create_account {
+  /* position: relative; */
+  padding: 50px;
+  width: 60vw;
+  margin-left: 30vw;
+  height: 500px;
+  /* border: 2px solid black; */
+}
+
+.create_account .account_box {
+  display: flex;
+}
+
+.create_account p {
+  width: 60%;
+}
+
+.a-container {
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.b-container {
+  display: flex;
+  justify-content: space-between;
+}
+.child_container {
+  display: flex;
+}
+
+.sell {
+  display: flex;
+  justify-content: space-between;
+}
+.sell ul li {
+  margin-bottom: 20px;
+}
+/* create account box css end */
+
+/* list products css start */
+
+.list_products {
+  position: relative;
+  top: 800px;
+  padding: 50px;
+  width: 60vw;
+  margin-left: 30vw;
+  height: 920px;
+  background-color: #f2faff;
+  border-radius: 8px;
+  /* border: 2px solid red; */
+}
+/* list products css end */
+
+/* storage and shipping css start */
+.storage {
+  position: relative;
+  top: 800px;
+  padding: 20px;
+  width: 60vw;
+  margin-left: 30vw;
+  height: 2020px;
+}
+
+.items li {
+  margin-bottom: 15px;
+}
+table tr {
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+/* storage and shipping css end */
+
+/* recieve payments css start */
+
+.payments {
+  position: relative;
+  top: 820px;
+  width: 65vw;
+  margin-left: 30vw;
+  height: 330px;
+  border-radius: 8px;
+  background-color: #edf6fc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* recieve payments css end */
+
+/* grow faster css start */
+
+.grow-faster {
+  position: relative;
+  top: 840px;
+  padding: 20px;
+  width: 65vw;
+  margin-left: 30vw;
+}
+
+.grow-faster ol li {
+  margin-bottom: 20px;
+}
+
+/* grow faster css end */
+
+/* seller app css start */
+
+.seller_app {
+  position: relative;
+  top: 840px;
+  padding: 20px;
+  width: 65vw;
+  margin-left: 30vw;
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  background-color: #edf6fc;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seller_app ol li {
+  margin-bottom: 10px;
+}
+/* seller app css end */
+
+/* help and support css start */
+.help {
+  position: relative;
+  top: 860px;
+  padding: 20px;
+  width: 65vw;
+  margin-left: 30vw;
+}
+
+.help .help_container {
+  display: flex;
+}
+/* help and support css end */
+
+/* seller footer css start */
+
+.seller_footer {
+  position: relative;
+  top: 880px;
+  padding: 20px;
+  width: 100vw;
+
+  background-color: #333333;
+  color: white;
+}
+
+.seller_footer a {
+  font-size: 0.8rem;
+  color: white;
+}

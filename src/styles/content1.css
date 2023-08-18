@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 77vw;
+}
+
+.content1 {
+  width: 60vw;
+}
+.card {
+  border: 1px solid grey;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.card img {
+  width: 15vw;
+  height: 30vh;
+}

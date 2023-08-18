@@ -1,0 +1,36 @@
+.Footer-1 ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: white;
+}
+.Footer-1 {
+  width: 60%;
+  display: flex;
+  justify-items: space-between;
+  border-right: 2px solid grey;
+}
+
+.Footer-2 ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.Footer-2 {
+  width: 40%;
+  display: flex;
+}
+
+.heading {
+  color: #878787;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+.Footer_Container {
+  display: flex;
+  width: 100%;
+  background-color: #212121;
+}

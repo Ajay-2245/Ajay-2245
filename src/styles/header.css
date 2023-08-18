@@ -1,0 +1,10 @@
+.header {
+  width: 80vw;
+
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.header li {
+  text-align: center;
+}

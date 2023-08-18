@@ -1,0 +1,4 @@
+.beauty_cards {
+  display: flex;
+  justify-content: space-between;
+}
